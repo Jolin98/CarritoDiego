@@ -1,0 +1,103 @@
+/*font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Permanent Marker', cursive;
+
+
+#formu1{
+    width:40%;
+}
+
+
+#caja1{
+    float: left;
+    width:30%;
+    height:25em;
+}
+#caja2{
+    float: left;
+    width:48%;
+}
+
+#caja3{
+    width:100%;
+    clear:both;
+}
+*/
+#btn1{
+    width:50%;
+    height:3em;
+    background-color: rgb(139, 66, 16);
+    border:0px;
+    margin:0 0 10% 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+#prenda{
+    width:50%;
+    height: 3em;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 0 10% 20%;
+}
+#color{
+    width:50%;
+    height: 3em;
+    margin:0 0 10% 20%;
+    font-family: 'Montserrat', sans-serif;
+}
+.item{
+    display: grid;
+}
+.contenedor {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 3fr ;
+}
+#formul{margin-top:20%;}
+.item0, .item4{
+    grid-column: 1/-1;
+}
+.itemselect{
+    grid-column: 1/-1;
+}
+.item2{
+    justify-content: center;
+  align-items: center;
+  background-color: #ffffff
+}
+#foto{
+    float:left;
+}
+#colorcin{
+    margin-left:25%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 5px 0 rgba(0, 0, 0, 0.623);
+    background-color: #ffdac8
+}
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom:2%;
+    margin-top:1%;
+    color:#6b5337;
+    text-shadow:
+  -1px -2px 0 #000,  
+  1px -2px 0 #000,
+  -1px 2px 0 #000,
+  1px 2px 0 #000;
+}
+
+h2{
+    margin-top:2%;
+    font-size:7em;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    text-align: center;
+}
+#resultado{
+    overflow: hidden;
+    margin-left:10%;
+    margin-top:20%;
+    text-shadow: 0 5px 0 rgba(0, 0, 0, 0);
+}
