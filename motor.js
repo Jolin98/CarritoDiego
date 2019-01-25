@@ -53,3 +53,6 @@ var colors = color.options[colorcito-1].text;
   document.getElementsByTagName("p")[0].appendChild(parrafo); 
   
 }
+function comprar(){
+  alert("GRACIAS POR LA COMPRA");
+}

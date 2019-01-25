@@ -25,10 +25,14 @@ font-family: 'Permanent Marker', cursive;
 #btn1{
     width:50%;
     height:3em;
-    background-color: rgb(139, 66, 16);
+    background-color: rgb(0, 0, 0);
     border:0px;
     margin:0 0 10% 20%;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:1em;
+    color:white;
+    cursor: pointer;
 }
 #prenda{
     width:50%;
@@ -50,11 +54,13 @@ font-family: 'Permanent Marker', cursive;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 3fr ;
+    grid-template-areas:"footer footer footer";
 }
 #formul{margin-top:20%;}
 .item0, .item4{
     grid-column: 1/-1;
 }
+
 .itemselect{
     grid-column: 1/-1;
 }
@@ -73,31 +79,59 @@ font-family: 'Permanent Marker', cursive;
 body{
     font-family: 'Montserrat', sans-serif;
     text-shadow: 0 5px 0 rgba(0, 0, 0, 0.623);
-    background-color: #ffdac8
+    background-color: #f7e9e2
 }
 h1{
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    font-size: 3em;
+    font-family: 'Staatliches', sans-serif;
+    
+    font-size: 5em;
     margin-bottom:2%;
     margin-top:1%;
-    color:#6b5337;
-    text-shadow:
-  -1px -2px 0 #000,  
-  1px -2px 0 #000,
-  -1px 2px 0 #000,
-  1px 2px 0 #000;
+    margin-left:29%;
+    color:#000000;
+    float:center;
 }
 
 h2{
     margin-top:2%;
-    font-size:7em;
+    font-size:8em;
     font-family: 'Libre Barcode 128 Text', cursive;
     text-align: center;
+    float:left;
+    
+    align-self: start;
 }
 #resultado{
     overflow: hidden;
     margin-left:10%;
-    margin-top:20%;
     text-shadow: 0 5px 0 rgba(0, 0, 0, 0);
 }
+#bolsa{
+    margin:0%;
+    padding:0%;
+}
+.item3{
+    margin:0%;
+    padding:0%;
+    align-self: start;
+}
+#bolsa{
+    margin-left:25%;
+}
+#bolsa1{display: inline-block;padding-right: 11%;padding-left:12%;
+}
+.item4{
+    justify-content: flex-start;
+    display: inline-block;
+    grid-column: 1/-1
+}
+.itemim{display: block;
+    float:left;
+    align-self: auto;}
+.itemtit{
+    justify-content: center;
+}
+#caja3{
+    width:100%;
+}
+#bolsa2{padding-left:8%;}
